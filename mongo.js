@@ -15,4 +15,4 @@ db.createCollection('user');
   
 db.user.ensureIndex({'username': 1}, {unique: true});
 
-db.user.insert({'admin':'$2a$10$wTnPP1P6Ro6nFpotvTzxU.XHfg29ya3Okjexqk5BFFbvsBvThNK3q'});
+db.user.insert({'username':'admin','password':'$2a$10$wTnPP1P6Ro6nFpotvTzxU.XHfg29ya3Okjexqk5BFFbvsBvThNK3q'});
